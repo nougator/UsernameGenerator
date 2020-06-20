@@ -12,8 +12,8 @@ function generateUsername(){
     let currentNameStep = 0;
     while(currentNameStep < nameSize){
         if(getCharType()){
-            if(currentNameStep == 0) name = name + soundingChars[Math.floor(Math.random() * soundingChars.length)].toUpperCase();
-            else name = name + nonSoundingChars[Math.floor(Math.random() * soundingChars.length)];
+            if(currentNameStep == 0) name = name + nonSoundingChars[Math.floor(Math.random() * nonSoundingChars.length)].toUpperCase();
+            else name = name + nonSoundingChars[Math.floor(Math.random() * nonSoundingChars.length)];
         }else{
             if(currentNameStep == 0) name = name + soundingChars[Math.floor(Math.random() * soundingChars.length)].toUpperCase();
             else name = name + soundingChars[Math.floor(Math.random() * soundingChars.length)];
