@@ -8,7 +8,7 @@ let charType = true;
 generateUsername();
 
 function generateUsername(){
-    let nameSize = Math.floor(Math.random() * 5) + 4;
+    let nameSize = Math.floor(Math.random() * 3) + 4;
     let currentNameStep = 0;
     while(currentNameStep < nameSize){
         if(getCharType()){
